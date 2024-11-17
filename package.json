@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
 
+ 
   "scripts": {
+  "build": "your-build-command",
     "build": "tailwind -i ./input.css -o ./css/main.css",
     "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
   },
